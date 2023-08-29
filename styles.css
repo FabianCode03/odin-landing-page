@@ -43,3 +43,70 @@ a {
 footer {
   background-color: #1f2937;
 }
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.links,
+.hero-subtitle,
+.call-to-action-box p,
+.footer-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-heading {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.button,
+.call-to-action-box {
+  background-color: #3882f6;
+}
+
+.button {
+  color: white;
+  font-weight: bold;
+  padding: 5px 20px;
+  border: none;
+}
+
+.button .inverted {
+  border-color: white;
+  border-width: 2px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.illustration-and-text p {
+  font-size: 18px;
+  color: #1f2937;
+}
+
+.testimonial {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.testimonial-author,
+.call-to-action-box h3 {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.testimonial-author {
+  color: #1f2937;
+}
+
+.call-to-action-box h3 {
+  color: white;
+}
