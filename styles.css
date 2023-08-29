@@ -71,14 +71,18 @@ footer {
 
 .button {
   color: white;
-  font-weight: bold;
-  padding: 5px 20px;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: inherit;
+  padding: 5px 32px;
   border: none;
+  border-radius: 8px;
 }
 
-.button .inverted {
+.button.inverted {
+  border: solid;
   border-color: white;
-  border-width: 2px;
+  border-width: 3px;
 }
 
 h2 {
@@ -114,19 +118,42 @@ h2 {
 }
 
 /* layout */
-.top-header,
+/* .top-header,
 .section-1-content {
-  padding: 0px 150px;
-}
+  padding-left: 150px;
+  padding-right: 150px;
+} */
 
 .top-header {
+  /* border: solid yellow; */
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 15px 0px;
+  padding: 15px 160px;
 }
 
 .top-header-right ul {
   display: flex;
   gap: 20px;
+}
+
+.section-1-content {
+  /* border: solid yellow; */
+  display: flex;
+  margin: 150px 160px;
+  gap: 20px;
+}
+
+.section-1-content > * {
+  /* border: solid green; */
+  flex: 1;
+}
+
+.section-1-content div > * {
+  margin: 5px;
+}
+
+.section-1-picture {
+  background-color: slategray;
 }
