@@ -44,8 +44,10 @@ footer {
   background-color: #1f2937;
 }
 
+/* font sizes, styles and colors */
 .header-logo {
   font-size: 24px;
+  font-weight: 800;
   color: #f9faf8;
 }
 
@@ -109,4 +111,22 @@ h2 {
 
 .call-to-action-box h3 {
   color: white;
+}
+
+/* layout */
+.top-header,
+.section-1-content {
+  padding: 0px 150px;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0px;
+}
+
+.top-header-right ul {
+  display: flex;
+  gap: 20px;
 }
