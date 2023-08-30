@@ -173,6 +173,7 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 50px;
+  margin-bottom: 80px;
 }
 
 .illustration-and-text {
@@ -182,9 +183,6 @@ h2 {
   flex-direction: column;
   width: 170px;
   text-align: center;
-}
-
-.illustration-and-text p {
 }
 
 .illustration {
@@ -209,4 +207,21 @@ h2 {
 .testimonial-author {
   align-self: flex-end;
   margin-right: 20px;
+}
+
+/* section 4 */
+
+.section-4 {
+  display: flex;
+  padding: 80px 160px;
+  justify-content: center;
+}
+
+.call-to-action-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+  flex: auto;
+  border-radius: 8px;
 }
