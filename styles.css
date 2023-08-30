@@ -225,3 +225,12 @@ h2 {
   flex: auto;
   border-radius: 8px;
 }
+
+/* footer */
+
+footer {
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+}
