@@ -142,7 +142,7 @@ h2 {
 .section-1-content {
   /* border: solid yellow; */
   display: flex;
-  margin: 150px 160px;
+  margin: 100px 160px 150px 160px;
   gap: 20px;
 }
 
